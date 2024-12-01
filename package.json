@@ -11,6 +11,7 @@
     "aframe": "^1.6.0",
     "aframe-ar": "^0.2.1-a",
     "core-js": "^3.38.1",
+    "dotenv": "^16.4.5",
     "express-fileupload": "^1.5.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
