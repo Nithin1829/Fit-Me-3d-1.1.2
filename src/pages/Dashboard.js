@@ -330,30 +330,7 @@ function Dashboard() {
     };
   }, [updateMaterials]);
 
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-  //   const token = localStorage.getItem('token');
-  //   const data = { height, chest, waist, hips };
-
-  //   try {
-  //     const response = await fetch('http://localhost:5001/api/measurements', {
-  //       method: 'POST',
-  //       headers: {
-  //         'Content-Type': 'application/json',
-  //         Authorization: `Bearer ${token}`,
-  //       },
-  //       body: JSON.stringify(data),
-  //     });
-
-  //     if (response.ok) {
-  //       navigate('/arview');
-  //     } else {
-  //       console.error('Error saving measurements.');
-  //     }
-  //   } catch (error) {
-  //     console.error('Server error.');
-  //   }
-  // };
+ 
   const handleSubmit = async (e) => {
     e.preventDefault();
   
