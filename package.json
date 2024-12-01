@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "aframe": "^1.6.0",
     "aframe-ar": "^0.2.1-a",
+    "aws-amplify": "^6.10.0",
     "core-js": "^3.38.1",
     "dotenv": "^16.4.5",
     "express-fileupload": "^1.5.1",
@@ -45,6 +46,14 @@
     ]
   },
   "devDependencies": {
+    "@aws-amplify/backend": "^1.8.0",
+    "@aws-amplify/backend-cli": "^1.4.2",
+    "aws-cdk": "^2.171.1",
+    "aws-cdk-lib": "^2.171.1",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.24.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
     "webpack": "^5.94.0"
   }
 }
